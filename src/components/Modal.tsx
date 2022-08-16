@@ -107,6 +107,35 @@ export default function Modal() {
                             </label>
                         </li>
                     </ul>
+
+                    <ul className="grid gap-3 mt-3 w-full md:grid-cols-3">
+                        <li>
+                            <input type="checkbox" id="contentcreator-option" value="" className="hidden peer" required={true}/>
+                            <label htmlFor="contentcreator-option" className="inline-flex justify-between items-center p-5 w-full text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer peer-checked:border-blue-600 hover:text-gray-600 peer-checked:text-gray-600 hover:bg-gray-50">                           
+                                <div className="block">
+                                    <div className="w-full font-semibold">Criação de conteúdo</div>
+                                </div>
+                            </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="visualid-option" value="" className="hidden peer" required={true}/>
+                            <label htmlFor="visualid-option" className="inline-flex justify-between items-center p-5 w-full text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer peer-checked:border-blue-600 hover:text-gray-600 peer-checked:text-gray-600 hover:bg-gray-50">                           
+                                <div className="block">
+                                    <div className="w-full font-semibold">Identidade visual</div>
+                                </div>
+                            </label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="other-option" value="" className="hidden peer" required={true}/>
+                            <label htmlFor="other-option" className="inline-flex justify-between items-center p-5 w-full text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer peer-checked:border-blue-600 hover:text-gray-600 peer-checked:text-gray-600 hover:bg-gray-50">                           
+                                <div className="block">
+                                    <div className="w-full font-semibold">Outro</div>
+                                </div>
+                            </label>
+                        </li>
+                    </ul>
                     
                 </div>
                 {/*footer*/}

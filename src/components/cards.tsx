@@ -42,7 +42,7 @@ export default function Cards(){
                     <div className="px-6 py-4">
                         <div className="font-bold text-xl mb-2">Identidade visual</div>
                         <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque.
+                        Faço a sua marca visível, relevante e eficaz colocando-o no centro de suas propriedades digitais.
                         </p>
                     </div>
                     <div className="px-6 pt-4 pb-2">
