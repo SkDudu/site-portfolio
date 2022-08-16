@@ -1,17 +1,11 @@
-import React from 'react';
-import Cards from './components/cards';
-import Hero from './components/Hero';
-import Footer from './components/footer';
-import RecentWork from './components/recentWork';
+import { BrowserRouter } from 'react-router-dom';
+import { Router } from './Router';
 
 function App() {
   return (
-    <>
-      <Hero />
-      <Cards />
-      <RecentWork />
-      <Footer />
-    </>
+    <BrowserRouter>
+        <Router />
+    </BrowserRouter>
   );
 }
 

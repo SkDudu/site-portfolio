@@ -7,7 +7,7 @@ export default function Cards(){
             <span className="block text-4xl tracking-tight font-medium text-gray-900 md-4">Serviços que ofereço</span>
             <span className="block text-xk tracking-tight font-regular text-gray-500 mt-2 md-4">Serviços que ajudam você a alcançar novos resultados no seu negócio</span>
             <div className='grid grid-cols-3 gap-4 mt-8 mx-auto max-w-7xl px-4'>
-                <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                <div className="max-w-sm rounded-lg overflow-hidden shadow-lg">
                     <img className="h-[300px]" src="https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="Sunset in the mountains"/>
                     <div className="px-6 py-4">
                         <div className="font-bold text-xl mb-2">UI/UX Design</div>

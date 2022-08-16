@@ -1,4 +1,3 @@
-import { ArrowCircleRight } from "phosphor-react"
 import cape_anni from "../assets/anni-capa.png"
 import cape_idv from "../assets/idv-capa.png"
 
