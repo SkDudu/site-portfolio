@@ -78,7 +78,7 @@ function Hero() {
                     <span className="block xl:inline">Olá, meu nome é Eduardo Santos e sou</span>
                     <span className="block text-amber-500 xl:inline"> UX/UI Designer</span>
                   </h1>
-                  <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Transformando ideias em projetos incríveis com criatividade, ideias interativas e design.</p>
+                  <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Transformando ideias em projetos incríveis com criatividade e design interativos.</p>
                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                     <div className="rounded-md flex space-x-6">
                       <Modal />                   
