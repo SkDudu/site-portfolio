@@ -54,7 +54,7 @@ export default function Modal() {
                         <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                           <At size={20} color="#6b7280"/>
                         </div>
-                        <input type={"email"} id="input-group-1" className="bg-gray-50 border border-gray-300 text-gray-900 pl-10 text-sm rounded outline-none focus:ring block w-full p-2.5" placeholder="name@email.com"/>
+                        <input type={"email"} id="input-group-1" className="bg-gray-50 border border-gray-300 text-gray-900 pl-10 text-sm rounded outline-none focus:ring block w-full p-2.5" placeholder="nome@email.com"/>
                       </div>
                     </div>
 

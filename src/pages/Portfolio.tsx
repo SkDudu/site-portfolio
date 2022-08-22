@@ -9,6 +9,10 @@ export default function Portfolio(){
                 <span className="block text-xl tracking-tight font-regular text-gray-500 mb-4">Projetos</span>
                 <span className="block text-4xl tracking-tight font-medium text-gray-700">Projetos feitos ............</span>
             </div>
+
+            <div>
+                
+            </div>
         </>
     )
 }
