@@ -9,6 +9,7 @@ import Modal from './Modal';
 
 function Hero() {
     const [showModal, setShowModal] = React.useState(false);
+    const [showMenu, setShowMenu] = React.useState(false);
     return (
       <div className="relative bg-white overflow-hidden">
           <div className="max-w-7xl mx-auto">
@@ -56,7 +57,7 @@ function Hero() {
                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                     <div className="rounded-md flex space-x-6">
                       <Modal />                   
-                      <a href="#" className="w-[130px] flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-[#14213D] bg-gray-100 hover:bg-[#E0E6F5] hover:text-bg-[#1E315C] md:py-4 md:text-lg md:px-10"> Portfólio </a>
+                      <a href="#" className="w-[130px] flex items-center justify-center px-8 py-3 border border-transparent md:text-base text-sm font-medium rounded-md text-[#14213D] bg-gray-100 hover:bg-[#E0E6F5] hover:text-bg-[#1E315C]"> Portfólio </a>
                     </div>
                   </div>
                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
